@@ -51,10 +51,10 @@ if( empty( $_SESSION['id_user'] ) ){
 	 			echo '
 
 				   <tr>
-					 <td>'.$no.'</td>
-					 <td>'.$row['username'].'</td>
-					 <td>'.$row['nama'].'</td>
-					 <td>';
+					 <td><b>'.$no.'</b></td>
+					 <td><b>'.$row['username'].'</b></td>
+					 <td><b>'.$row['nama'].'</b></td>
+					 <td><b>';
 
 					 if($row['level'] == 1){
 						 echo 'Admin';
@@ -62,7 +62,7 @@ if( empty( $_SESSION['id_user'] ) ){
 						 echo 'User Biasa';
 					 }
 
-					 echo'</td>
+					 echo'</b></td>
 					 <td>
 
 					<script type="text/javascript" language="JavaScript">
