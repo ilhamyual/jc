@@ -79,7 +79,7 @@ CREATE TABLE `ajc_user` (
 --
 
 INSERT INTO `ajc_user` (`id_user`, `username`, `password`, `nama`, `alamat`, `hp`, `level`) VALUES
-(1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'M. Rudianto', 'Ds. Bareng, Kec. Sawahan Kab. Nganjuk - Jawa Timur', '085735501035', 1);
+(1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'Ilham', 'Bondowoso', '085334886553', 1);
 
 --
 -- Indexes for dumped tables
